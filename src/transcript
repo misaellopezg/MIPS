@@ -1,0 +1,2151 @@
+# Reading pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:56 on Dec 09,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 17:29:57 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:57 on Dec 09,2022
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 17:29:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:57 on Dec 09,2022
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_file_testbench
+# 
+# Top level modules:
+# 	reg_file_testbench
+# End time: 17:29:58 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:58 on Dec 09,2022
+# vlog -reportprogress 300 ./programcounter.sv 
+# -- Compiling module programcounter
+# -- Compiling module programcounter_testbench
+# 
+# Top level modules:
+# 	programcounter_testbench
+# End time: 17:29:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:58 on Dec 09,2022
+# vlog -reportprogress 300 ./imem.sv 
+# -- Compiling module imem
+# -- Compiling module imem_testbench
+# 
+# Top level modules:
+# 	imem_testbench
+# End time: 17:29:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:58 on Dec 09,2022
+# vlog -reportprogress 300 ./dmem.sv 
+# -- Compiling module dmem
+# -- Compiling module dmem_testbench
+# 
+# Top level modules:
+# 	dmem_testbench
+# End time: 17:29:59 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:59 on Dec 09,2022
+# vlog -reportprogress 300 ./signextend.sv 
+# -- Compiling module signextend
+# -- Compiling module signextend_testbench
+# 
+# Top level modules:
+# 	signextend_testbench
+# End time: 17:29:59 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:59 on Dec 09,2022
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 17:30:00 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:00 on Dec 09,2022
+# vlog -reportprogress 300 ./mux2.sv 
+# -- Compiling module mux2
+# -- Compiling module mux2_testbench
+# 
+# Top level modules:
+# 	mux2_testbench
+# End time: 17:30:00 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:00 on Dec 09,2022
+# vlog -reportprogress 300 ./maindecoder.sv 
+# -- Compiling module maindecoder
+# -- Compiling module maindecoder_testbench
+# 
+# Top level modules:
+# 	maindecoder_testbench
+# End time: 17:30:01 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:01 on Dec 09,2022
+# vlog -reportprogress 300 ./aludecoder.sv 
+# -- Compiling module aludecoder
+# -- Compiling module aludecoder_testbench
+# 
+# Top level modules:
+# 	aludecoder_testbench
+# End time: 17:30:01 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:01 on Dec 09,2022
+# vlog -reportprogress 300 ./controlunit.sv 
+# -- Compiling module controlunit
+# -- Compiling module controlunit_testbench
+# 
+# Top level modules:
+# 	controlunit_testbench
+# End time: 17:30:01 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:02 on Dec 09,2022
+# vlog -reportprogress 300 ./datapath.sv 
+# -- Compiling module datapath
+# -- Compiling module datapath_testbench
+# 
+# Top level modules:
+# 	datapath_testbench
+# End time: 17:30:02 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:02 on Dec 09,2022
+# vlog -reportprogress 300 ./mips.sv 
+# -- Compiling module mips
+# -- Compiling module mips_testbench
+# 
+# Top level modules:
+# 	mips_testbench
+# End time: 17:30:02 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work mips_testbench 
+# Start time: 17:30:02 on Dec 09,2022
+# Loading sv_std.std
+# Loading work.mips_testbench
+# Loading work.mips
+# Loading work.programcounter
+# Loading work.imem
+# Loading work.controlunit
+# Loading work.maindecoder
+# Loading work.aludecoder
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.reg_file
+# Loading work.signextend
+# Loading work.alu
+# Loading work.dmem
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Misael Lopez  Hostname: DESKTOP-J57SP92  ProcessID: 13748
+#           Attempting to use alternate WLF file "./wlftig3mr6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftig3mr6
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Instruction: xxxxxxxx
+# Instruction: xxxxxxxx
+# Register a0 n :          x
+# Register s0 b :          x
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          x
+# Register v0 :          x
+# Read Out 1 : xxxxxxxx
+# Read Out 2 : xxxxxxxx
+# PC Value:          x 
+# 
+# Instruction: 20040010
+# Instruction: 20040010
+# Register a0 n :          x
+# Register s0 b :          x
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          x
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:          0 
+# 
+# Instruction: 20090000
+# Instruction: 20090000
+# Register a0 n :         16
+# Register s0 b :          x
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          x
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:          4 
+# 
+# Instruction: 20100000
+# Instruction: 20100000
+# Register a0 n :         16
+# Register s0 b :          x
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:          8 
+# 
+# Instruction: 20110001
+# Instruction: 20110001
+# Register a0 n :         16
+# Register s0 b :          0
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:         12 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :          0
+# Register s1 a :          1
+# Register t0 t :          x
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :          0
+# Register s1 a :          1
+# Register t0 t :          x
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :          0
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000000
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000001
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000000
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          1
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000001
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          1
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000001
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000001
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000001
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 00000001
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :          2
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000002
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 00000002
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          1
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          1
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          1
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 00000001
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          2
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 00000002
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :          3
+# Register s1 a :          3
+# Register t0 t :          2
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 00000003
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          2
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 00000003
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          2
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          2
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000004
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          2
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 00000002
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          3
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 00000003
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :          5
+# Register s1 a :          5
+# Register t0 t :          3
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 00000005
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          3
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000004
+# Read Out 2 : 00000004
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          3
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          3
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          3
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 00000003
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          5
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 00000005
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :          8
+# Register s1 a :          8
+# Register t0 t :          5
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 00000008
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          5
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 00000005
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          5
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          5
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000006
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          5
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 00000005
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          8
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 0000000d
+# Read Out 2 : 00000008
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :         13
+# Register s1 a :         13
+# Register t0 t :          8
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 0000000d
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :          8
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000006
+# Read Out 2 : 00000006
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :          8
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :          8
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 00000007
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :          8
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 0000000d
+# Read Out 2 : 00000008
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :         13
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 00000015
+# Read Out 2 : 0000000d
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :         21
+# Register s1 a :         21
+# Register t0 t :         13
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 0000000d
+# Read Out 2 : 00000015
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         13
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 00000007
+# Read Out 2 : 00000007
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         13
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         13
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         13
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000015
+# Read Out 2 : 0000000d
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         21
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000022
+# Read Out 2 : 00000015
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :         34
+# Register s1 a :         34
+# Register t0 t :         21
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000015
+# Read Out 2 : 00000022
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         21
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 00000008
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         21
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         21
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000009
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         21
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000022
+# Read Out 2 : 00000015
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         34
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000037
+# Read Out 2 : 00000022
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :         55
+# Register s1 a :         55
+# Register t0 t :         34
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000022
+# Read Out 2 : 00000037
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000009
+# Read Out 2 : 00000009
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :          x
+# Read Out 1 : 0000000a
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :          x
+# Read Out 1 : 00000037
+# Read Out 2 : 00000022
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         55
+# Register t1 cntr :         10
+# Register v0 :          x
+# Read Out 1 : 00000059
+# Read Out 2 : 00000037
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :         89
+# Register s1 a :         89
+# Register t0 t :         55
+# Register t1 cntr :         10
+# Register v0 :          x
+# Read Out 1 : 00000037
+# Read Out 2 : 00000059
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :         89
+# Register s1 a :        144
+# Register t0 t :         55
+# Register t1 cntr :         10
+# Register v0 :          x
+# Read Out 1 : 0000000a
+# Read Out 2 : 0000000a
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         16
+# Register s0 b :         89
+# Register s1 a :        144
+# Register t0 t :         55
+# Register t1 cntr :         11
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         16
+# Register s0 b :         89
+# Register s1 a :        144
+# Register t0 t :         55
+# Register t1 cntr :         11
+# Register v0 :          x
+# Read Out 1 : 0000000b
+# Read Out 2 : 00000010
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         16
+# Register s0 b :         89
+# Register s1 a :        144
+# Register t0 t :         55
+# Register t1 cntr :         11
+# Register v0 :          x
+# Read Out 1 : 00000059
+# Read Out 2 : 00000037
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         16
+# Register s0 b :         89
+# Register s1 a :        144
+# Register t0 t :         89
+# Register t1 cntr :         11
+# Register v0 :          x
+# Read Out 1 : 00000090
+# Read Out 2 : 00000059
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         16
+# Register s0 b :        144
+# Register s1 a :        144
+# Register t0 t :         89
+# Register t1 cntr :         11
+# Register v0 :          x
+# Read Out 1 : 00000059
+# Read Out 2 : 00000090
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         16
+# Register s0 b :        144
+# Register s1 a :        233
+# Register t0 t :         89
+# Register t1 cntr :         11
+# Register v0 :          x
+# Read Out 1 : 0000000b
+# Read Out 2 : 0000000b
+# PC Value:         32 
+# 
+# ** Note: $stop    : ./mips.sv(76)
+#    Time: 7550 ps  Iteration: 1  Instance: /mips_testbench
+# Break in Module mips_testbench at ./mips.sv line 76
+do ru
+# Cannot open macro file: ru
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:32 on Dec 09,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 17:30:33 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:33 on Dec 09,2022
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 17:30:33 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:33 on Dec 09,2022
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_file_testbench
+# 
+# Top level modules:
+# 	reg_file_testbench
+# End time: 17:30:34 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:34 on Dec 09,2022
+# vlog -reportprogress 300 ./programcounter.sv 
+# -- Compiling module programcounter
+# -- Compiling module programcounter_testbench
+# 
+# Top level modules:
+# 	programcounter_testbench
+# End time: 17:30:34 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:34 on Dec 09,2022
+# vlog -reportprogress 300 ./imem.sv 
+# -- Compiling module imem
+# -- Compiling module imem_testbench
+# 
+# Top level modules:
+# 	imem_testbench
+# End time: 17:30:34 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:36 on Dec 09,2022
+# vlog -reportprogress 300 ./dmem.sv 
+# -- Compiling module dmem
+# -- Compiling module dmem_testbench
+# 
+# Top level modules:
+# 	dmem_testbench
+# End time: 17:30:36 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:36 on Dec 09,2022
+# vlog -reportprogress 300 ./signextend.sv 
+# -- Compiling module signextend
+# -- Compiling module signextend_testbench
+# 
+# Top level modules:
+# 	signextend_testbench
+# End time: 17:30:37 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:37 on Dec 09,2022
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 17:30:37 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:37 on Dec 09,2022
+# vlog -reportprogress 300 ./mux2.sv 
+# -- Compiling module mux2
+# -- Compiling module mux2_testbench
+# 
+# Top level modules:
+# 	mux2_testbench
+# End time: 17:30:38 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:38 on Dec 09,2022
+# vlog -reportprogress 300 ./maindecoder.sv 
+# -- Compiling module maindecoder
+# -- Compiling module maindecoder_testbench
+# 
+# Top level modules:
+# 	maindecoder_testbench
+# End time: 17:30:38 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:38 on Dec 09,2022
+# vlog -reportprogress 300 ./aludecoder.sv 
+# -- Compiling module aludecoder
+# -- Compiling module aludecoder_testbench
+# 
+# Top level modules:
+# 	aludecoder_testbench
+# End time: 17:30:39 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:39 on Dec 09,2022
+# vlog -reportprogress 300 ./controlunit.sv 
+# -- Compiling module controlunit
+# -- Compiling module controlunit_testbench
+# 
+# Top level modules:
+# 	controlunit_testbench
+# End time: 17:30:39 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:39 on Dec 09,2022
+# vlog -reportprogress 300 ./datapath.sv 
+# -- Compiling module datapath
+# -- Compiling module datapath_testbench
+# 
+# Top level modules:
+# 	datapath_testbench
+# End time: 17:30:40 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:40 on Dec 09,2022
+# vlog -reportprogress 300 ./mips.sv 
+# -- Compiling module mips
+# -- Compiling module mips_testbench
+# 
+# Top level modules:
+# 	mips_testbench
+# End time: 17:30:40 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:30:42 on Dec 09,2022, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work mips_testbench 
+# Start time: 17:30:42 on Dec 09,2022
+# Loading sv_std.std
+# Loading work.mips_testbench
+# Loading work.mips
+# Loading work.programcounter
+# Loading work.imem
+# Loading work.controlunit
+# Loading work.maindecoder
+# Loading work.aludecoder
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.reg_file
+# Loading work.signextend
+# Loading work.alu
+# Loading work.dmem
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Misael Lopez  Hostname: DESKTOP-J57SP92  ProcessID: 13748
+#           Attempting to use alternate WLF file "./wlftx57j0h".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx57j0h
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Instruction: xxxxxxxx
+# Instruction: xxxxxxxx
+# Register a0 n :          x
+# Register s0 b :          x
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          x
+# Register v0 :          x
+# Read Out 1 : xxxxxxxx
+# Read Out 2 : xxxxxxxx
+# PC Value:          x 
+# 
+# Instruction: 2004000a
+# Instruction: 2004000a
+# Register a0 n :          x
+# Register s0 b :          x
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          x
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:          0 
+# 
+# Instruction: 20090000
+# Instruction: 20090000
+# Register a0 n :         10
+# Register s0 b :          x
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          x
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:          4 
+# 
+# Instruction: 20100000
+# Instruction: 20100000
+# Register a0 n :         10
+# Register s0 b :          x
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:          8 
+# 
+# Instruction: 20110001
+# Instruction: 20110001
+# Register a0 n :         10
+# Register s0 b :          0
+# Register s1 a :          x
+# Register t0 t :          x
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:         12 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :          0
+# Register s1 a :          1
+# Register t0 t :          x
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :          0
+# Register s1 a :          1
+# Register t0 t :          x
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : xxxxxxxx
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :          0
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000000
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000001
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          0
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          0
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000000
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          1
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000001
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          1
+# Register t0 t :          1
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000001
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          1
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000001
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000001
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :          1
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 00000001
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :          2
+# Register s1 a :          2
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000001
+# Read Out 2 : 00000002
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          1
+# Register t1 cntr :          2
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 00000002
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          1
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          1
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          1
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 00000001
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :          2
+# Register s1 a :          3
+# Register t0 t :          2
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 00000002
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :          3
+# Register s1 a :          3
+# Register t0 t :          2
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000002
+# Read Out 2 : 00000003
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          2
+# Register t1 cntr :          3
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 00000003
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          2
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          2
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000004
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          2
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 00000002
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :          3
+# Register s1 a :          5
+# Register t0 t :          3
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 00000003
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :          5
+# Register s1 a :          5
+# Register t0 t :          3
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000003
+# Read Out 2 : 00000005
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          3
+# Register t1 cntr :          4
+# Register v0 :          x
+# Read Out 1 : 00000004
+# Read Out 2 : 00000004
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          3
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          3
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          3
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 00000003
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :          5
+# Register s1 a :          8
+# Register t0 t :          5
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 00000005
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :          8
+# Register s1 a :          8
+# Register t0 t :          5
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 00000008
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          5
+# Register t1 cntr :          5
+# Register v0 :          x
+# Read Out 1 : 00000005
+# Read Out 2 : 00000005
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          5
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          5
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000006
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          5
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 00000005
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :          8
+# Register s1 a :         13
+# Register t0 t :          8
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 0000000d
+# Read Out 2 : 00000008
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :         13
+# Register s1 a :         13
+# Register t0 t :          8
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 0000000d
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :          8
+# Register t1 cntr :          6
+# Register v0 :          x
+# Read Out 1 : 00000006
+# Read Out 2 : 00000006
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :          8
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :          8
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 00000007
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :          8
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 0000000d
+# Read Out 2 : 00000008
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :         13
+# Register s1 a :         21
+# Register t0 t :         13
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 00000015
+# Read Out 2 : 0000000d
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :         21
+# Register s1 a :         21
+# Register t0 t :         13
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 0000000d
+# Read Out 2 : 00000015
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         13
+# Register t1 cntr :          7
+# Register v0 :          x
+# Read Out 1 : 00000007
+# Read Out 2 : 00000007
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         13
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         13
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         13
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000015
+# Read Out 2 : 0000000d
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :         21
+# Register s1 a :         34
+# Register t0 t :         21
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000022
+# Read Out 2 : 00000015
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :         34
+# Register s1 a :         34
+# Register t0 t :         21
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000015
+# Read Out 2 : 00000022
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         21
+# Register t1 cntr :          8
+# Register v0 :          x
+# Read Out 1 : 00000008
+# Read Out 2 : 00000008
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         21
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         21
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000009
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22080000
+# Instruction: 22080000
+# Register a0 n :         10
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         21
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000022
+# Read Out 2 : 00000015
+# PC Value:         20 
+# 
+# Instruction: 22300000
+# Instruction: 22300000
+# Register a0 n :         10
+# Register s0 b :         34
+# Register s1 a :         55
+# Register t0 t :         34
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000037
+# Read Out 2 : 00000022
+# PC Value:         24 
+# 
+# Instruction: 01108820
+# Instruction: 01108820
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         55
+# Register t0 t :         34
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000022
+# Read Out 2 : 00000037
+# PC Value:         28 
+# 
+# Instruction: 21290001
+# Instruction: 21290001
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :          9
+# Register v0 :          x
+# Read Out 1 : 00000009
+# Read Out 2 : 00000009
+# PC Value:         32 
+# 
+# Instruction: 08000004
+# Instruction: 08000004
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :          x
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         36 
+# 
+# Instruction: 11240005
+# Instruction: 11240005
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :          x
+# Read Out 1 : 0000000a
+# Read Out 2 : 0000000a
+# PC Value:         16 
+# 
+# Instruction: 22020000
+# Instruction: 22020000
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :          x
+# Read Out 1 : 00000037
+# Read Out 2 : xxxxxxxx
+# PC Value:         40 
+# 
+# Instruction: 0800000b
+# Instruction: 0800000b
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :         55
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         44 
+# 
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :         55
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         44 
+# 
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :         55
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         44 
+# 
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :         55
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         44 
+# 
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :         55
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         44 
+# 
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :         55
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         44 
+# 
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :         55
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         44 
+# 
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :         55
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         44 
+# 
+# Register a0 n :         10
+# Register s0 b :         55
+# Register s1 a :         89
+# Register t0 t :         34
+# Register t1 cntr :         10
+# Register v0 :         55
+# Read Out 1 : 00000000
+# Read Out 2 : 00000000
+# PC Value:         44 
+# 
+# ** Note: $stop    : ./mips.sv(76)
+#    Time: 7550 ps  Iteration: 1  Instance: /mips_testbench
+# Break in Module mips_testbench at ./mips.sv line 76
+# End time: 20:48:17 on Dec 09,2022, Elapsed time: 3:17:35
+# Errors: 0, Warnings: 2

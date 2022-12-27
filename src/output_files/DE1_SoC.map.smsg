@@ -1,0 +1,5 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10034): Output port "LEDR" at DE1_SoC.sv(5) has no driver File: C:/MIPS/src/DE1_SoC.sv Line: 5
+Warning (10030): Net "ram.data_a" at imem.sv(6) has no driver or initial value, using a default initial value '0' File: C:/MIPS/src/imem.sv Line: 6
+Warning (10030): Net "ram.waddr_a" at imem.sv(6) has no driver or initial value, using a default initial value '0' File: C:/MIPS/src/imem.sv Line: 6
+Warning (10030): Net "ram.we_a" at imem.sv(6) has no driver or initial value, using a default initial value '0' File: C:/MIPS/src/imem.sv Line: 6
